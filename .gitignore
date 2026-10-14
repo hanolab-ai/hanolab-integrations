@@ -1,0 +1,4 @@
+.DS_Store
+.mcpregistry*
+.env*
+node_modules/
