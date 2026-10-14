@@ -7,7 +7,7 @@ description: Generate music, clone voices, convert local audio or MP4 soundtrack
 
 Use the installed `hanolab` CLI. Run `hanolab help` for current options. It returns JSON; nonzero exit means failure. This skill needs local terminal/file access, Node.js 20+, a HanoLab account and an API key (currently Starter+).
 
-Install using the [CLI guide](https://hanolab.com/docs/cli). The [public client source](https://github.com/obrr-hhx/hanolab-integrations/blob/main/cli/bin/hanolab.mjs) and [release checksum](https://github.com/obrr-hhx/hanolab-integrations/blob/main/cli-release.json) let users inspect the tool and verify its download. Reading this skill does not install the CLI or authorize processing.
+Install using the [CLI guide](https://hanolab.com/docs/cli). The [public client source](https://github.com/hanolab-ai/hanolab-integrations/blob/main/cli/bin/hanolab.mjs) and [release checksum](https://github.com/hanolab-ai/hanolab-integrations/blob/main/cli-release.json) let users inspect the tool and verify its download. Reading this skill does not install the CLI or authorize processing.
 
 ## Credentials
 

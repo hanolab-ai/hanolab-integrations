@@ -3,10 +3,10 @@
   "name": "io.github.obrr-hhx/hanolab",
   "title": "HanoLab Voice Conversion",
   "description": "Convert uploaded speech or singing with your saved HanoLab voices, using OAuth and credit quotes.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://hanolab.com/docs/mcp",
   "repository": {
-    "url": "https://github.com/obrr-hhx/hanolab-integrations",
+    "url": "https://github.com/hanolab-ai/hanolab-integrations",
     "source": "github"
   },
   "remotes": [

@@ -25,14 +25,14 @@ Example requests after connecting:
 Install both public skills using the [Skills CLI](https://skills.sh/docs):
 
 ```sh
-npx skills add obrr-hhx/hanolab-integrations
+npx skills add hanolab-ai/hanolab-integrations
 ```
 
 Or select one:
 
 ```sh
-npx skills add obrr-hhx/hanolab-integrations --skill hanolab-mcp
-npx skills add obrr-hhx/hanolab-integrations --skill hanolab
+npx skills add hanolab-ai/hanolab-integrations --skill hanolab-mcp
+npx skills add hanolab-ai/hanolab-integrations --skill hanolab
 ```
 
 - **hanolab-mcp**: the connected remote MCP workflow, private browser uploads, exact quotes, confirmed credit budgets, and resuming existing tasks.
