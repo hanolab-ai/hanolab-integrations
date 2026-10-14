@@ -1,0 +1,11 @@
+{
+  "name": "@hanolab/cli",
+  "version": "0.2.2",
+  "description": "Use your saved HanoLab voices from a terminal or AI assistant",
+  "type": "module",
+  "bin": { "hanolab": "bin/hanolab.mjs" },
+  "files": ["bin", "skill", "README.md"],
+  "engines": { "node": ">=20" },
+  "scripts": { "test": "node --test test/*.test.mjs" },
+  "dependencies": { "music-metadata": "^12.1.0" }
+}

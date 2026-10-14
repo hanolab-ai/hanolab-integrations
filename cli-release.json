@@ -1,0 +1,7 @@
+{
+  "url": "https://hanolab.com/downloads/hanolab-cli-0.2.2.tgz",
+  "version": "0.2.2",
+  "sha256": "740fbdeec2e47d98eb1cc02c56c842dbf4c7791c60ea23afa5073af436e8ee97",
+  "bytes": 10639,
+  "source": "cli/bin/hanolab.mjs"
+}

@@ -4,7 +4,7 @@ Voice conversion for recorded speech and singing, with private saved voices, cre
 
 [HanoLab](https://hanolab.com/) · [Remote MCP guide](https://hanolab.com/docs/mcp) · [CLI guide](https://hanolab.com/docs/cli) · [Privacy](https://hanolab.com/privacy) · [Support](mailto:support@hanolab.com)
 
-This repository distributes public connection metadata and two agent skills. The hosted service implementation is maintained separately.
+This repository distributes public connection metadata, two agent skills, and the client source from the public CLI release. The hosted service implementation is maintained separately.
 
 ## Remote MCP
 
@@ -48,6 +48,8 @@ hanolab auth login
 hanolab help
 ```
 
+The [CLI client source](cli/bin/hanolab.mjs) is copied from the public 0.2.2 release. [Release checksums](cli-release.json) identify the exact downloadable artifact. The client sends authenticated API requests to HanoLab and streams audio uploads/downloads; inspect the source and the privacy policy before connecting your account.
+
 Create the key on the [account page](https://hanolab.com/account) and enter it at the hidden terminal prompt. Do not paste credentials into a chat or a project file.
 
 ## Account access and cost
@@ -62,4 +64,4 @@ Uploads through remote MCP support audio or MP4 soundtracks up to 15 minutes and
 
 ## Updating
 
-Keep these public skills aligned with HanoLab's documented tools and current CLI release. Publish a new registry metadata version when its public fields change. Do not add secrets, review-account credentials, signed private audio links, or backend source to this repository.
+Keep these public skills aligned with HanoLab's documented tools and current CLI release. Publish a new registry metadata version when its public fields change. Do not add secrets, review-account credentials, signed private audio links, or hosted backend source to this repository.
